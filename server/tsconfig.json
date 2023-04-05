@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "build",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "target": "es2017",
+    "jsxImportSource": "@emotion/react",
+    "checkJs": true,
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": ["aspect-ratio"]
+        }
+      }
+    ]
+  },
+  "include": [".eslintrc.cjs", "jest.config.ts", "./**/*", "../../types/"],
+  "exclude": ["build", "node_modules"]
+}

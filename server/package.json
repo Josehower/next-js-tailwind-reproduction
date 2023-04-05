@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "@types/node": "^18.15.11",
+    "autoprefixer": "^10.4.14",
+    "express": "^4.18.2",
+    "next": "13.2.5-canary.21",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.1",
+    "tsm": "2.3.0",
+    "typescript": "5.0.3"
+  }
+}
