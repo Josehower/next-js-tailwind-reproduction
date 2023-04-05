@@ -5,7 +5,7 @@ import { nextRequestHandler } from '../next-app/util/server.js';
 const app = express();
 const port = 3000;
 
-app.get('/', async (req, res) => {
+app.use('/', async (req, res) => {
   await nextRequestHandler(req, res);
 });
 
