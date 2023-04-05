@@ -14,7 +14,6 @@
     "@types/react-dom": "18.0.11",
     "autoprefixer": "^10.4.14",
     "express": "^4.18.2",
-    "next": "13.2.5-canary.21",
     "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

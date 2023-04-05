@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "next": "yarn workspace next-app",
-    "server": "yarn workspace server"
+    "server": "yarn workspace server",
+    "test": "yarn next build && yarn server build || yarn server start"
   },
   "workspaces": [
     "next-app",
