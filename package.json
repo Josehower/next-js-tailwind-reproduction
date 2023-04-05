@@ -1,0 +1,17 @@
+{
+  "name": "next-js-tailwind-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:Josehower/next-js-tailwind-reproduction.git",
+  "author": "José Fernando Höwer Barbosa <josehowerupn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "next": "yarn workspace next-app",
+    "server": "yarn workspace server"
+  },
+  "workspaces": [
+    "next-app",
+    "server"
+  ]
+}
